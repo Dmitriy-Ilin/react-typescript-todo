@@ -1,0 +1,26 @@
+.todoItemContainer {
+    background-color: white;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 25px 20px;
+    border-radius: 5px;
+}
+
+.todoItemTitle {
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.todoItemDescription {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.todoItemButtonContainer {
+    display: flex;
+    justify-content: right;
+    gap: 5px
+}
+

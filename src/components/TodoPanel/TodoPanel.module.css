@@ -1,0 +1,36 @@
+.todoPanelContainer {
+    background-color: white;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 25px 20px;
+}
+
+.fieldsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.fieldContainer {
+    width: 100%;
+}
+
+.fieldContainer label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+}
+
+.fieldContainer input {
+    font-size: 15px;
+    padding: 10px 5px;
+    border-radius: 2px;
+    border: 0.5px solid black;
+}
+
+.buttonContainer {
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+}
